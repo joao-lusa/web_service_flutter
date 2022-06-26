@@ -35,6 +35,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   http: ^0.13.4
+  dio: ^4.0.6
+  another_flushbar: ^1.10.29
+  share_plus: ^4.0.9
 dev_dependencies:
   flutter_test:
     sdk: flutter
