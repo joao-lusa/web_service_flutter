@@ -129,7 +129,10 @@ class _HomePageState extends State<HomePage> {
   Widget _buildResultForm() {
     return Container(
       padding: const EdgeInsets.only(top: 20.0),
-      child: Text(_result ?? ''),
+      child: Text(
+        _result ?? '',
+        style: const TextStyle(fontSize: 20),
+      ),
     );
   }
 
